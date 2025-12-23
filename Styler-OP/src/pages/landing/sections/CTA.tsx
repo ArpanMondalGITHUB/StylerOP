@@ -38,7 +38,7 @@ function CTA() {
                   size="lg"
                   className="group min-w-[200px]"
                 >
-                  Get Started
+                  Register
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
                 <Button variant="outline" size="lg" className="min-w-[200px]">

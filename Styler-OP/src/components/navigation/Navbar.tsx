@@ -47,7 +47,7 @@ function Navbar() {
         </div>
 
         <Button variant="outline" size="sm" className="hidden md:inline-flex">
-          Get Started
+          Register
         </Button>
       </div>
     </nav>

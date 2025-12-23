@@ -84,7 +84,7 @@ function Footer() {
         {/* Bottom bar */}
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-border">
           <p className="text-sm text-muted-foreground">
-            © 2024 StyleForge AI. All rights reserved.
+            © 2025 StyleForge AI. All rights reserved.
           </p>
           <div className="flex items-center gap-6 mt-4 md:mt-0">
             {/* Social icons */}
