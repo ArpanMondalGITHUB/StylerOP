@@ -12,9 +12,9 @@ const showcaseItems = [
     afterImage:images.csk,
   },
   {
-    style: "Avtar",
+    style: "Illustrate",
     beforeImage:images.girlsecond,
-    afterImage:images.avatar,
+    afterImage:images.illustrate,
   },
 ];
 function Showcase() {

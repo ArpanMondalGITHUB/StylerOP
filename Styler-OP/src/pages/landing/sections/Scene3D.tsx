@@ -10,7 +10,6 @@ import * as THREE from "three";
 
 function GlowingOrb() {
   const meshRef = useRef<THREE.Mesh>(null);
-  const materialRef = useRef<THREE.ShaderMaterial>(null);
 
   useFrame((state) => {
     if (meshRef.current) {
@@ -67,7 +66,7 @@ function ParticleField() {
           count={2000}
           array={particlesPosition}
           itemSize={3}
-          args={[]}
+          args={[particlesPosition, 3]}
         />
       </bufferGeometry>
       <pointsMaterial
