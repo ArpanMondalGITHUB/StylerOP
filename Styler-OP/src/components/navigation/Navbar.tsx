@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "../ui/Button";
 
 function Navbar() {
@@ -45,10 +46,11 @@ function Navbar() {
             Pricing
           </a>
         </div>
-
+        <Link to={'/auth'}>
         <Button variant="outline" size="sm" className="hidden md:inline-flex">
           Register
         </Button>
+        </Link>
       </div>
     </nav>
   );
