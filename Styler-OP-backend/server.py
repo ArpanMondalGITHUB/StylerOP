@@ -10,7 +10,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "http://localhost:5173",
-        "https://styler-op.vercel.app/"],  # React dev servers
+        "https://styler-op.vercel.app"],  # React dev servers
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
