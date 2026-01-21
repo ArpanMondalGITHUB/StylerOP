@@ -3,7 +3,7 @@ import {
   createSlice,
   type PayloadAction,
 } from "@reduxjs/toolkit";
-import type { AuthState, User } from "../../type/auth.types";
+import type { AuthState, User } from "../../types/auth.types";
 import authApi from "../../api/auth.api";
 import type { AxiosError } from "axios";
 

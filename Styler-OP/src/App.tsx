@@ -2,9 +2,9 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import LandingPage from "./pages/landing/LandingPage";
 import NotFound from "./pages/NotFound";
-import Home from "./pages/home/Home";
+import Home from "./pages/home/DashBoard";
 import Auth from "./pages/auth/Auth";
-import { useAppDispatch, useAppSelector } from "./hooks/authHooks";
+import { useAppDispatch, useAppSelector } from "./hooks/All_Hooks";
 import { useEffect } from "react";
 import { checkCurrentUser } from "./redux/slice/authSlice";
 import {RefreshTokens} from './services/RefreshTokens'

@@ -5,7 +5,7 @@ import { Button } from "../../components/ui/Button";
 import { Input } from "../../components/ui/Input";
 import { Label } from "../../components/ui/label";
 import { Mail, Lock, ArrowLeft, Eye, EyeOff, User } from "lucide-react";
-import { useAppDispatch, useAppSelector } from "../../hooks/authHooks";
+import { useAppDispatch, useAppSelector } from "../../hooks/All_Hooks";
 import { clearError, login, signup , setError } from "../../redux/slice/authSlice";
 
 

@@ -1,4 +1,4 @@
-import type {LoginResponse, User, UserLogin, UserSignup } from "../type/auth.types";
+import type {LoginResponse, User, UserLogin, UserSignup } from "../types/auth.types";
 import axiosInstance from "./axios.config";
 
 const authApi = {
