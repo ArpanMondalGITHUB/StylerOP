@@ -60,6 +60,8 @@ function DashBoard() {
     error,
   } = useAppSelector((state) => state.image);
 
+  const {user} = useAppSelector((state)=>state.auth)
+
   const handleFileSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (file) {
@@ -152,7 +154,18 @@ function DashBoard() {
             Styler
           </h1>
 
+
+
           <div className="flex items-center gap-3">
+            {user && (
+              <div className="flex items-center gap-2">
+                <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
+                  <span className="text-sm font-semibold text-primary-foreground">
+                    {user.username.charAt(0).toUpperCase()}
+                  </span>
+                </div>
+              </div>
+            )}
             <Sheet open={isHistoryOpen} onOpenChange={setIsHistoryOpen}>
               <SheetTrigger asChild>
                 <Button variant="outline" size="sm" className="gap-2">
